@@ -1,0 +1,107 @@
+/* COLOR PALLETTE
+  red: #ea1123
+  light-red: #e24141
+  yellow: #f8e042
+  light-blue: #1189c5
+  blue: #1f5189
+*/
+
+/* CSS Reset */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+p {
+  font-size: 18px;
+}
+input[type="text"] {
+  border: solid thin grey;
+  background-color: white;
+  color: black;
+  margin: 1em;
+  font-size: 1em;
+}
+
+#charSearchForm, #character-cc {
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+}
+
+#main {
+  width: 100%;
+}
+
+#cc {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom:   2%;
+}
+
+.eras {
+  text-align: center;
+  margin-bottom: 1vh;
+}
+.eras img {
+  margin: 10px;
+}
+
+.launch, .getHero {
+  background-color: #1f5189;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 1.5vh;
+  margin-top: 1vh;
+}
+
+#notAvailable {
+  max-width: 70%;
+}
+
+#sixties {
+  background-color: rgba(234, 17, 35, 0.75);
+  margin-top: 1vh;
+}
+#seventies {
+  background-color: rgba(226, 65, 65, 0.75);
+}
+#eighties {
+  background-color: rgba(248, 224, 66, 0.75);
+}
+#nineties {
+  background-color: rgba(17, 137, 197, 0.75);
+}
+#naughties {
+  background-color: rgba(31, 81, 137, 0.75);
+}
+#twenty-tens {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 860px) {
+  .eras img {
+    width: 168px;
+    height: 252px;
+  }
+}

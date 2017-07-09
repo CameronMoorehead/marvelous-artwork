@@ -1,0 +1,18 @@
+/* CSS for Knockout Text effect */
+
+.clip-text {
+  font-family: "Lobster";
+  font-size: 11vw;
+  font-weight: bolder;
+  line-height: 1;
+  padding: .5em .75em;
+  display: inline-block;
+  text-align: center;
+  /* Color fallback */
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("/images/knockout-banner3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

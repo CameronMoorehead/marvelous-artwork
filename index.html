@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="favicon.ico" rel="shortcut icon">
+  <link href="dist/styles.min.css" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald" rel="stylesheet">
+  <title>Marvelous Artwork</title>
+</head>
+<body>
+  <div id="main">
+    <div id="title">
+      <div class="clip-text">MARVELOUS ARTWORK</div>
+    </div>
+    <div id="cc">
+      <p>
+      Hello! This website is dedicated to the cover artwork of Marvel Comics.
+      Enter a Marvel character in the field below to see how the comic book covers
+      of issues that featured that hero have changed over time.
+      </p>
+      <div id="character-cc">
+        <form id="charSearchForm">
+          <input id="charSearchInput" type="text">
+          <button type="submit" class="getHero">SUBMIT</button>
+        </form>
+        <div id="character-img"></div>
+      </div>
+      <div id="image-dump">
+        <div class="eras" id="loading"></div>
+        <div class="eras" id="sixties"></div>
+        <div class="eras" id="seventies"></div>
+        <div class="eras" id="eighties"></div>
+        <div class="eras" id="nineties"></div>
+        <div class="eras" id="naughties"></div>
+        <div class="eras" id="twenty-tens"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="dist/bundle.min.js"></script>
+</body>
+</html>
